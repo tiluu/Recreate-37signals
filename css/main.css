@@ -1,0 +1,173 @@
+html, body {
+	height: 100%;
+	font-size: 13px;
+	font-family: Georgia;
+}
+a {
+	text-decoration: none;
+}
+#content, {
+	min-width: 1000px;
+}
+
+}
+#content {
+	min-width: 1000px;
+	background-color: red;
+}
+section, footer {
+	width: 800px;
+	margin: auto;
+	text-align: center;
+}
+.center {
+	width: 750px;
+	margin: auto;
+}
+
+h1 {
+	font-size: 48px;
+	padding-bottom: 40px;
+}
+h2 {
+	font-size: 40px;
+	line-height: 1.2em;
+	padding-bottom: 20px;
+}
+h3 {
+	font-size: 24px;
+	color: black;
+}
+
+h4  {
+	font-size: 16px;
+	font-weight: bold;
+	color: red;
+	padding: 10px;
+}
+
+#wrapper {
+	position: relative;
+	min-height: 100%;
+}
+
+/*HEADER*/
+header {
+	height: 60px;
+}
+#main-nav {
+	float: right;
+	padding-right: 60px;
+	padding-top: 15px;
+}
+#main-nav li {
+	display: inline-block;
+	padding: 5px;
+	font-family: 'Lucida Grande', Verdana;
+}
+
+/*MAIN*/
+
+
+.divider {
+	clear: both;
+	height: 52px;
+	padding-top: 20px;
+
+}
+
+#logo {
+	width: 164px;
+	padding: 20px;
+	margin: auto;
+}
+
+.apps, .offer {
+	height: 250px;
+	width: 184px;
+	float: left;
+	display: block;
+	margin: 30px;
+}
+.apps {
+	background-color: beige;
+}
+
+.icon {
+	display: block;
+	padding-top: 20px;
+	margin: auto;
+}
+#title {
+	height: 150px;
+
+}
+#customers {
+	display: block;
+	background-image: url('../images/img-customers.png');
+	width: 143px; 
+	height: 104px;
+	position: relative;
+	left: -120px;
+	top: -70px;
+
+}
+
+#customers:hover {
+	
+	background-image: url('../images/img-customers.png');
+	width: 143px;
+	height: 104px;
+	background-position: 0px -104px;
+}
+
+.companies {
+	font-size: 18px;
+	color: gray;
+	line-height: 1.53em;
+	text-align: left;
+	width: 600px;
+}
+
+#badge {
+	float: right;
+}
+#brand {
+	padding: 25px;
+}
+
+table {
+	text-align: left;
+}
+.number {
+	font-size: 36px;
+	color: gray;
+}
+.terms {
+	color: red;
+	font-size: 16px;
+	font-weight: bold;
+	height: 20px;
+}
+
+#rework {
+	float: left;
+}
+blockquote {
+	color: gray;
+	font-style: italic;
+	font-size: 18px;
+	height: 100px;
+	padding-top: 40px;
+	line-height: 1.3em;
+}
+.other {
+	float: left;
+	width: 300px;
+	height: 150px;
+	padding-left: 40px;
+}
+/*FOOTER */
+footer {
+
+}
