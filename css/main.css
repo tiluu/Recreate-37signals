@@ -65,22 +65,22 @@ h1, h2, h3, h5 {
 /*HEADER*/
 header {
 	height: 60px;
+	padding: 30px 50px 0 60px;
 }
 
 #greeting {
 	color: gray;
 	font-size: 12px;
 	float: left;
-	padding: 20px 0 0 60px;
+	
 }
 #main-nav {
 	float: right;
-	padding-right: 60px;
-	padding-top: 15px;
+	
 }
 #main-nav li {
 	display: inline-block;
-	padding: 5px;
+	padding-left: 15px;
 	font-family: 'Lucida Grande', Verdana;
 }
 
@@ -101,7 +101,7 @@ header {
 
 #logo {
 	width: 164px;
-	padding: 20px;
+	padding-bottom: 20px;
 	margin: auto;
 }
  #apps-center{
