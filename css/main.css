@@ -14,6 +14,10 @@ a {
 	text-decoration: none;
 	color: #506894;
 }
+
+a:hover {
+	color: #8399c7;
+}
 #content, {
 	min-width: 1000px;
 }
@@ -45,12 +49,12 @@ h3 {
 }
 
 h4  {
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: bold;
 	color: #C64324;
 	padding: 10px;
 }
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h5 {
 	font-family: "Times New Roman", Georgia;
 }
 #wrapper {
@@ -61,6 +65,13 @@ h1, h2, h3, h4, h5 {
 /*HEADER*/
 header {
 	height: 60px;
+}
+
+#greeting {
+	color: gray;
+	font-size: 12px;
+	float: left;
+	padding: 20px 0 0 60px;
 }
 #main-nav {
 	float: right;
@@ -73,6 +84,13 @@ header {
 	font-family: 'Lucida Grande', Verdana;
 }
 
+#sign-in {
+	color: #8baedb;
+}
+
+#sign-in:hover {
+	color: #506894;
+}
 /*MAIN*/
 
 .divider {
@@ -128,6 +146,7 @@ header {
 }
 #customer-head {
 	height: 150px;
+	padding-bottom: 15px;
 }
 #customers-img {
 	display: block;
@@ -168,7 +187,8 @@ header {
 	float: right;
 }
 #brand {
-	padding: 25px;
+	padding: 35px 0px;
+
 }
 
 .list {
@@ -176,12 +196,8 @@ header {
 	height: 90px;
 }
 
-.list a {
-	color: 
-}
-
 #list-center {
-	width: 780px;
+	width: 800px;
 	margin: auto;
 }
 #list-left {
@@ -206,7 +222,7 @@ header {
 	width: 300px;
 	margin-left: 30px;
 	padding: 3px;
-	font-size: 18px;
+	font-size: 16px;
 	color: #B42018;
 }
 
@@ -245,17 +261,31 @@ blockquote {
 	line-height: 1.4em;
 	width: 840px;
 	font-family: "Times New Roman", Georgia;
-	font-size: 21px;
+	font-size: 20px;
 }
 blockquote p:before, blockquote p:after {
 	content: '"';
 }
 
+cite {
+	font-size: 12px;
+}
 .offer {
 	float: left;
 	width: 160px;
 	margin: 10px;
 }
+
+.offer h3 {
+	color: black;
+	font-size: 22px;
+	font-weight: bold;
+	font-family: "Lucida Grande", Verdana;
+	padding-top: 5px;
+	padding-bottom: 8px;
+
+}
+
 .offer p {
 	font-size: 12px;
 	color: #666;
@@ -287,8 +317,9 @@ blockquote p:before, blockquote p:after {
 	border-bottom: 1px solid #E7E7E7;
 }
 .other h3 {
-	padding: 10px;
+	padding: 15px;
 	font-weight: 500;
+	font-size: 22px;
 }
 .other a {
 	color: black;
@@ -307,10 +338,18 @@ footer {
 #more {
 	padding-bottom: 30px;
 }
+#more h4 {
+	padding: 10px;
+}
+
+footer nav {
+	padding: 10px;
+}
 
 footer li {
 	height: 30px;
 	padding: 5px;
+
 }
 
 #copyright {
