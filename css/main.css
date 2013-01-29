@@ -115,19 +115,29 @@ header {
 }
 
 #bc-arrow {
-	position: absolute;
-	left: 500px;
+	position: relative;
+	bottom: -60px;
+	left: -150px;
+	z-index: 5;
 }
 
 #hr-arrow {
-	position: absolute;
-	left: 710px;
+	position: relative;
+	bottom: -60px;
+	right: -80px;
+	z-index: 5;
+	
 }
 #cf-arrow {
-	position: absolute;
-	left: 800px;
-	
+	position: relative;
+	bottom: -60px;
+	right: -150px;
+	z-index: 5;
+}
 
+span{
+	color: #506894;
+	text-decoration: underline;
 }
 /*MAIN*/
 
@@ -153,9 +163,6 @@ header {
 	float: left;
 	display: block;
 	margin: 22px;
-
-}
-.apps a {
 	border: 1px solid #E7E7E7;
 	border-radius: 4px;
 	background: rgb(255,255,255); /* Old browsers */
