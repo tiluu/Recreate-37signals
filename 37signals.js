@@ -1,7 +1,16 @@
 $(document).ready(function() {
-	$('div.products a').hover(function(){
-			$(this).toggleClass('hidden');
-			$('a.apps p, a.apps a').toggleClass('hidden');
-			
+	$('div#apps-center a').hover(
+		function(){
+			hover= "div."+$(this).attr('class')
+			$('hgroup.headline').toggleClass('hidden');
+			$('p', this).toggleClass('hidden');
+			$(hover).toggleClass('hidden');
+		},
+		function(){
+			hover= "div."+$(this).attr('class')
+			$('hgroup.headline').toggleClass('hidden');
+			$('p', this).toggleClass('hidden');
+			$(hover).toggleClass('hidden');
 		});
+
 });

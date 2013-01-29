@@ -38,7 +38,7 @@ a:hover {
 	min-width: 1000px;
 }
 section, footer {
-	width: 840px;
+	width: 900px;
 	margin: auto;
 	text-align: center;
 }
@@ -102,11 +102,9 @@ header {
 }/*hover*/
 
 .hidden {
-	display: none;
+	display: none !important;
 }
-.headline h1 {
-	font-size: 40px;
-}
+
 .more_hover {
 	width: 120px;
 	height: 26px;
@@ -118,16 +116,16 @@ header {
 
 #bc-arrow {
 	position: absolute;
-	
+	left: 500px;
 }
 
 #hr-arrow {
 	position: absolute;
-	left: 560px;
+	left: 710px;
 }
 #cf-arrow {
 	position: absolute;
-	left: 630px;
+	left: 800px;
 	
 
 }
@@ -149,7 +147,7 @@ header {
 	margin: auto;
 	height: 300px;
 }
-.apps{
+.apps a{
 	height: 250px;
 	width: 184px;
 	float: left;
@@ -157,7 +155,7 @@ header {
 	margin: 22px;
 
 }
-.apps {
+.apps a {
 	border: 1px solid #E7E7E7;
 	border-radius: 4px;
 	background: rgb(255,255,255); /* Old browsers */
