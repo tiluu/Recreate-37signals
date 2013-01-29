@@ -99,6 +99,37 @@ header {
 
 #sign-in:hover {
 	color: #506894;
+}/*hover*/
+
+.hidden {
+	display: none;
+}
+.headline h1 {
+	font-size: 40px;
+}
+.more_hover {
+	width: 120px;
+	height: 26px;
+	border: solid 2px #CBCBCB;
+	font-size: 16px;
+	color: #506894;
+	margin: auto;
+}
+
+#bc-arrow {
+	position: absolute;
+	
+}
+
+#hr-arrow {
+	position: absolute;
+	left: 560px;
+}
+#cf-arrow {
+	position: absolute;
+	left: 630px;
+	
+
 }
 /*MAIN*/
 
@@ -124,6 +155,7 @@ header {
 	float: left;
 	display: block;
 	margin: 22px;
+
 }
 .apps {
 	border: 1px solid #E7E7E7;

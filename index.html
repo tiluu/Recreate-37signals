@@ -6,6 +6,8 @@
         <title>37signals</title>
         <link rel="stylesheet" type="text/css" href="css/reset.css"> 
         <link rel="stylesheet" type="text/css" href="css/main.css">
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+        <script type="text/javascript" src="37signals.js"></script>
     </head>
     
     <body>
@@ -30,25 +32,83 @@
                 </div>
                 
                 <section>
-                    <h1> Making collaboration productive and enjoyable for people everyday.</h1>
-                    <h3>Frustration-free web-bsed apps for collaborations, sharing information, and making decisions.</h3>
+                    <hgroup class="">
+                        <h1> Making collaboration productive and enjoyable for people everyday.</h1>
+                        <h3>Frustration-free web-bsed apps for collaborations, sharing information, and making decisions.</h3>
+                    </hgroup>
                     <div id="apps-center">
-                        <div class="apps"> 
-                            <img class="icon" src="images/logo-bc.png"> <a href=""><h3>Basecamp</h3></a> 
-                            <h4  >Manage Projects</h5>
-                            <p>Used by millions for project management.</p>
-                        </div>
-                            <div class="apps"> 
-                            <img class="icon" src="images/logo-hr.png"> <a href=""><h3>Highrise</h3></a>
-                            <h4>Manage Contacts</h5>
-                            <p>Know the people you do business with.</p>
-                        </div>
-                        <div class="apps"> 
-                            <img class="icon" src="images/logo-cf.png"> <a href=""><h3>Campfire</h3></a>
+                        
+                            <div class="headline hidden">
+                                <h1>
+                                    <span>Basecamp</span>
+                                     is the project management tool you wish you had on your last project.
+                                </h1>
+                                <p>Are you still managing projects with email? Are you still using Excel for your to-do lists? It’s time to upgrade to Basecamp. Manage projects and collaborate with your team and clients the modern way.</p>
+                                
+                                <a href="#" class="apps">
+                                
+                                
+                                 </a>
+                            </div>
+                            <div class="headline hidden ">
+                                <h1>
+                                    <span>Highrise</span>
+                                    remembers the important things about people you’d normally forget.            
+                                </h1>
+                                <p>Keep a permanent record of people you do business with. Know who you talked to, when you talked to them, what was said, and when to follow up next. Over 20,000,000 contacts are tracked using Highrise.</p>
+                                
+                                <a href="#" class="apps">
+                                
+                                <img class="icon" src="images/logo-hr.png"> <a href=""><h3>Highrise</h3></a>
+                                <h4>Manage Contacts</h5>
+                                
+                                </a>
+                            </div>
+                        
+                        <div class="headline hidden">
+                                <h1>
+                                    <span>Campfire</span>
+                                      helps teams work together over the web in real-time.
+                                </h1>
+                                <p>Share ideas, discussions, concepts, images, code samples, videos, mockups, and documents in a real-time private chat room. It’s game changing. We couldn’t run our own business without Campfire.</p>
+                                 
+                                 <a href="#" class="apps">   
+                                <img class="icon" src="images/logo-cf.png"> <a href=""><h3>Campfire</h3></a>
+                                 <h4>Work in Real-Time</h5>
+                                
+                                </a>
+                            </div>
+        
+                    <div class="products">
+                            <a class="apps" href="#">
+                                <img class="icon" src="images/logo-bc.png">
+                                <img id="bc-arrow" class="hidden" src="images/arrow-left.png">
+                                 <h3>Basecamp</h3>
+                                <h4>Manage Projects</h5>
+                                <p>Used by millions for project management.</p>
+                                <p class="more_hover hidden">Find out more</p>
+                            </a>
+                   
+                            <a href="#"class="apps"> 
+                                <img class="icon" src="images/logo-hr.png"> 
+                                <img id="hr-arrow" class="hidden" src="images/arrow-left.png">
+                                <h3>Highrise</h3>
+                                <h4>Manage Contacts</h5>
+                                <p>Know the people you do business with.</p>
+                                <p class="more_hover hidden">Find out more</p>
+                            </a>
+                    
+
+                        <a href="#"class="apps"> 
+                            <img class="icon" src="images/logo-cf.png">
+                            <img id="cf-arrow" class="hidden" src="images/arrow-right.png">
+                            <h3>Campfire</h3>
                             <h4>Work in Real-Time</h5>
                             <p>Group chat rooms for your business.</p>
-                        </div>
+                            <p class="more_hover hidden">Find out more</p>
+                        </a>
                     </div>
+    
                     <div class="divider"> 
                         <img src="images/img-hr.png">
                     </div>
